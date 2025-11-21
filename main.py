@@ -67,6 +67,7 @@ while True:
         print("Qo'shildi.")
 
     elif cmd == "2":
+
         rid = input("ID: ")
         inv.remove_item(rid)
         print("O'chirildi.")
